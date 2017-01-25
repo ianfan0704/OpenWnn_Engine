@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3129BA9C1E1E81D700C7B9EE /* ndapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 3129BA931E1E81D700C7B9EE /* ndapi.c */; };
+		3129BA9D1E1E81D700C7B9EE /* ndbdic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3129BA941E1E81D700C7B9EE /* ndbdic.c */; };
+		3129BA9E1E1E81D700C7B9EE /* ndcommon.c in Sources */ = {isa = PBXBuildFile; fileRef = 3129BA951E1E81D700C7B9EE /* ndcommon.c */; };
+		3129BA9F1E1E81D700C7B9EE /* ndfdic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3129BA961E1E81D700C7B9EE /* ndfdic.c */; };
+		3129BAA01E1E81D700C7B9EE /* ndldic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3129BA971E1E81D700C7B9EE /* ndldic.c */; };
+		3129BAA11E1E81D700C7B9EE /* ndrdic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3129BA981E1E81D700C7B9EE /* ndrdic.c */; };
+		3129BAA21E1E81D700C7B9EE /* neapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 3129BA991E1E81D700C7B9EE /* neapi.c */; };
+		3129BAA31E1E81D700C7B9EE /* necode.c in Sources */ = {isa = PBXBuildFile; fileRef = 3129BA9A1E1E81D700C7B9EE /* necode.c */; };
+		3129BAA41E1E81D700C7B9EE /* nj_str.c in Sources */ = {isa = PBXBuildFile; fileRef = 3129BA9B1E1E81D700C7B9EE /* nj_str.c */; };
+		3129BAB01E1E871700C7B9EE /* ut_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3129BAAF1E1E871700C7B9EE /* ut_main.cpp */; };
+		3129BAB41E1E941900C7B9EE /* wnnjni.c in Sources */ = {isa = PBXBuildFile; fileRef = 3129BAB21E1E941900C7B9EE /* wnnjni.c */; };
+		3129BAC91E1E9AB700C7B9EE /* WnnJpnDic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3129BABE1E1E99C100C7B9EE /* WnnJpnDic.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3129BA871E1E816A00C7B9EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3129BA891E1E816A00C7B9EE /* wnn_engine_ut */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wnn_engine_ut; sourceTree = BUILT_PRODUCTS_DIR; };
+		3129BA931E1E81D700C7B9EE /* ndapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ndapi.c; path = libs/libwnnDictionary/engine/ndapi.c; sourceTree = SOURCE_ROOT; };
+		3129BA941E1E81D700C7B9EE /* ndbdic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ndbdic.c; path = libs/libwnnDictionary/engine/ndbdic.c; sourceTree = SOURCE_ROOT; };
+		3129BA951E1E81D700C7B9EE /* ndcommon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ndcommon.c; path = libs/libwnnDictionary/engine/ndcommon.c; sourceTree = SOURCE_ROOT; };
+		3129BA961E1E81D700C7B9EE /* ndfdic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ndfdic.c; path = libs/libwnnDictionary/engine/ndfdic.c; sourceTree = SOURCE_ROOT; };
+		3129BA971E1E81D700C7B9EE /* ndldic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ndldic.c; path = libs/libwnnDictionary/engine/ndldic.c; sourceTree = SOURCE_ROOT; };
+		3129BA981E1E81D700C7B9EE /* ndrdic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ndrdic.c; path = libs/libwnnDictionary/engine/ndrdic.c; sourceTree = SOURCE_ROOT; };
+		3129BA991E1E81D700C7B9EE /* neapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = neapi.c; path = libs/libwnnDictionary/engine/neapi.c; sourceTree = SOURCE_ROOT; };
+		3129BA9A1E1E81D700C7B9EE /* necode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = necode.c; path = libs/libwnnDictionary/engine/necode.c; sourceTree = SOURCE_ROOT; };
+		3129BA9B1E1E81D700C7B9EE /* nj_str.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nj_str.c; path = libs/libwnnDictionary/engine/nj_str.c; sourceTree = SOURCE_ROOT; };
+		3129BAA51E1E81E500C7B9EE /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = libs/libwnnDictionary/include; sourceTree = SOURCE_ROOT; };
+		3129BAAF1E1E871700C7B9EE /* ut_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ut_main.cpp; path = ut/ut_main.cpp; sourceTree = "<group>"; };
+		3129BAB11E1E8DC800C7B9EE /* ut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ut.h; path = ut/ut.h; sourceTree = "<group>"; };
+		3129BAB21E1E941900C7B9EE /* wnnjni.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wnnjni.c; path = ut/wnnjni.c; sourceTree = "<group>"; };
+		3129BAB31E1E941900C7B9EE /* wnnjni.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wnnjni.h; path = ut/wnnjni.h; sourceTree = "<group>"; };
+		3129BABE1E1E99C100C7B9EE /* WnnJpnDic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = WnnJpnDic.c; path = libs/libwnnJpnDic/WnnJpnDic.c; sourceTree = "<group>"; };
+		3129BAC51E1E9A8300C7B9EE /* libwnnJpnDic.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libwnnJpnDic.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3129BA861E1E816A00C7B9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3129BAC21E1E9A8300C7B9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3129BA801E1E816A00C7B9EE = {
+			isa = PBXGroup;
+			children = (
+				3129BAB51E1E98F700C7B9EE /* libwnnJpnDic */,
+				3129BAAE1E1E86F200C7B9EE /* ut */,
+				3129BA8B1E1E816A00C7B9EE /* wnn_engine */,
+				3129BA8A1E1E816A00C7B9EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3129BA8A1E1E816A00C7B9EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3129BA891E1E816A00C7B9EE /* wnn_engine_ut */,
+				3129BAC51E1E9A8300C7B9EE /* libwnnJpnDic.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3129BA8B1E1E816A00C7B9EE /* wnn_engine */ = {
+			isa = PBXGroup;
+			children = (
+				3129BAA51E1E81E500C7B9EE /* include */,
+				3129BA931E1E81D700C7B9EE /* ndapi.c */,
+				3129BA941E1E81D700C7B9EE /* ndbdic.c */,
+				3129BA951E1E81D700C7B9EE /* ndcommon.c */,
+				3129BA961E1E81D700C7B9EE /* ndfdic.c */,
+				3129BA971E1E81D700C7B9EE /* ndldic.c */,
+				3129BA981E1E81D700C7B9EE /* ndrdic.c */,
+				3129BA991E1E81D700C7B9EE /* neapi.c */,
+				3129BA9A1E1E81D700C7B9EE /* necode.c */,
+				3129BA9B1E1E81D700C7B9EE /* nj_str.c */,
+			);
+			path = wnn_engine;
+			sourceTree = "<group>";
+		};
+		3129BAAE1E1E86F200C7B9EE /* ut */ = {
+			isa = PBXGroup;
+			children = (
+				3129BAB21E1E941900C7B9EE /* wnnjni.c */,
+				3129BAB31E1E941900C7B9EE /* wnnjni.h */,
+				3129BAB11E1E8DC800C7B9EE /* ut.h */,
+				3129BAAF1E1E871700C7B9EE /* ut_main.cpp */,
+			);
+			name = ut;
+			sourceTree = "<group>";
+		};
+		3129BAB51E1E98F700C7B9EE /* libwnnJpnDic */ = {
+			isa = PBXGroup;
+			children = (
+				3129BABE1E1E99C100C7B9EE /* WnnJpnDic.c */,
+			);
+			name = libwnnJpnDic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3129BAC31E1E9A8300C7B9EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3129BA881E1E816A00C7B9EE /* wnn_engine_ut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3129BA901E1E816A00C7B9EE /* Build configuration list for PBXNativeTarget "wnn_engine_ut" */;
+			buildPhases = (
+				3129BA851E1E816A00C7B9EE /* Sources */,
+				3129BA861E1E816A00C7B9EE /* Frameworks */,
+				3129BA871E1E816A00C7B9EE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wnn_engine_ut;
+			productName = wnn_engine;
+			productReference = 3129BA891E1E816A00C7B9EE /* wnn_engine_ut */;
+			productType = "com.apple.product-type.tool";
+		};
+		3129BAC41E1E9A8300C7B9EE /* wnnJpnDic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3129BAC61E1E9A8300C7B9EE /* Build configuration list for PBXNativeTarget "wnnJpnDic" */;
+			buildPhases = (
+				3129BAC11E1E9A8300C7B9EE /* Sources */,
+				3129BAC21E1E9A8300C7B9EE /* Frameworks */,
+				3129BAC31E1E9A8300C7B9EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wnnJpnDic;
+			productName = wnnJpnDic;
+			productReference = 3129BAC51E1E9A8300C7B9EE /* libwnnJpnDic.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3129BA811E1E816A00C7B9EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Franky;
+				TargetAttributes = {
+					3129BA881E1E816A00C7B9EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					3129BAC41E1E9A8300C7B9EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3129BA841E1E816A00C7B9EE /* Build configuration list for PBXProject "wnn_engine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3129BA801E1E816A00C7B9EE;
+			productRefGroup = 3129BA8A1E1E816A00C7B9EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3129BA881E1E816A00C7B9EE /* wnn_engine_ut */,
+				3129BAC41E1E9A8300C7B9EE /* wnnJpnDic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3129BA851E1E816A00C7B9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3129BA9C1E1E81D700C7B9EE /* ndapi.c in Sources */,
+				3129BAA41E1E81D700C7B9EE /* nj_str.c in Sources */,
+				3129BAA21E1E81D700C7B9EE /* neapi.c in Sources */,
+				3129BAB01E1E871700C7B9EE /* ut_main.cpp in Sources */,
+				3129BA9F1E1E81D700C7B9EE /* ndfdic.c in Sources */,
+				3129BAA01E1E81D700C7B9EE /* ndldic.c in Sources */,
+				3129BA9E1E1E81D700C7B9EE /* ndcommon.c in Sources */,
+				3129BA9D1E1E81D700C7B9EE /* ndbdic.c in Sources */,
+				3129BAA11E1E81D700C7B9EE /* ndrdic.c in Sources */,
+				3129BAB41E1E941900C7B9EE /* wnnjni.c in Sources */,
+				3129BAA31E1E81D700C7B9EE /* necode.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3129BAC11E1E9A8300C7B9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3129BAC91E1E9AB700C7B9EE /* WnnJpnDic.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3129BA8E1E1E816A00C7B9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3129BA8F1E1E816A00C7B9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3129BA911E1E816A00C7B9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					include,
+					libs/libwnnDictionary/include,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3129BA921E1E816A00C7B9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					include,
+					libs/libwnnDictionary/include,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3129BAC71E1E9A8300C7B9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = libs/libwnnDictionary/include;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3129BAC81E1E9A8300C7B9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = libs/libwnnDictionary/include;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3129BA841E1E816A00C7B9EE /* Build configuration list for PBXProject "wnn_engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3129BA8E1E1E816A00C7B9EE /* Debug */,
+				3129BA8F1E1E816A00C7B9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3129BA901E1E816A00C7B9EE /* Build configuration list for PBXNativeTarget "wnn_engine_ut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3129BA911E1E816A00C7B9EE /* Debug */,
+				3129BA921E1E816A00C7B9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3129BAC61E1E9A8300C7B9EE /* Build configuration list for PBXNativeTarget "wnnJpnDic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3129BAC71E1E9A8300C7B9EE /* Debug */,
+				3129BAC81E1E9A8300C7B9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3129BA811E1E816A00C7B9EE /* Project object */;
+}
